@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.kosianodangoo.closedeathscreenbutton.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "close_death_screen_button.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "DeathScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
